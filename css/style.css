@@ -134,7 +134,7 @@ p {
 	text-align: center;
 	background: url(../img/header.png) center center no-repeat;
 	background-size: cover;
-	min-height: calc(100vh - 70px);
+	min-height: calc(100vh - 90px);
 }
 
 .logo {
