@@ -931,9 +931,9 @@ img {
 	margin-bottom: 15px;
 }
 
-#sendmessage.show, #errormessage.show, .show {
+/* #sendmessage.show, #errormessage.show, .show {
 	display: block;
-}
+} */
 
 /* nav-pills */
 
