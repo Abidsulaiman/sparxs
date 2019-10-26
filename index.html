@@ -56,7 +56,7 @@
                         <a class="dropdown-item" href="#spartans">Spartans on Stage</a>
                         <a class="dropdown-item" href="#upper">Upper Crest - Image Impact</a>
                         <a class="dropdown-item" href="#ateam">The A Team</a>
-                        <a class="dropdown-item" href="#elagance">English Elegance - The Broud Linguist</a>
+                        <a class="dropdown-item" href="#elegance">English Elegance - The Proud Linguist</a>
                     </div>
                 </li>
 
@@ -281,7 +281,7 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-lg-12 text-center">
-                    <h2>Upper Crest</h2>
+                    <h2>Upper Crest - Image Impact</h2>
                     <h4><i class="fa fa-calendar-alt" aria-hidden="true"></i> Add a Touch of Class to your Life</h4>
                 </div>
             </div>
@@ -430,7 +430,7 @@
         <div class="container">
             <div class="row mb-5">
                 <div class="col-lg-12 text-center">
-                    <h2>English Elegance</h2>
+                    <h2>English Elegance - The Proud Linguist</h2>
                     <h4><i class="fa fa-calendar-alt" aria-hidden="true"></i> One Day Workshop On</h4>
                 </div>
             </div>
@@ -551,7 +551,8 @@
     </section>
     <!--english-section-end-->
 
-    <section class="main-section" id="corporate" style="background: url('img/desk.png') center center no-repeat;background-size: cover;">
+    <section class="main-section" id="corporate"
+        style="background: url('img/desk.png') center center no-repeat;background-size: cover;">
         <!--main-section-start-->
         <div class="container">
             <div class="row mb-5">
@@ -600,7 +601,8 @@
     </section>
     <!--english-section-end-->
 
-    <section class="main-section" id="contact" style="background: url('img/map.png') center center no-repeat;background-attachment: fixed;background-size: contain;">
+    <section class="main-section" id="contact"
+        style="background: url('img/map.png') center center no-repeat;background-attachment: fixed;background-size: contain;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 v-centered">
@@ -650,12 +652,20 @@
         </div>
     </footer>
 
+
+    <button onclick="scrollToTop()" class="btn bg-chrome" style="position: fixed;right: 10px;bottom: 10px;box-shadow: 0 0 10px 0px #00000029;">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
     <script type="text/javascript">
         $(document).ready(function () {
             $('.carousel').carousel({
                 interval: 2500
-            })
+            });
         });
+        function scrollToTop() {
+            window.scrollTo(0, 0);
+        }
     </script>
 
 </body>
