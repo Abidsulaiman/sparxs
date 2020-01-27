@@ -187,7 +187,7 @@ p {
 	position: sticky;
 	top: 0;
 	left: 0;
-	z-index: 9999;
+	z-index: 1000;
 	padding: 0;
 }
 
@@ -615,6 +615,17 @@ img {
 
 .main-section.team h6 {
 	margin-bottom: 40px;
+}
+
+
+/*Gallery*/
+
+.light-gallery{
+	width: 100%;
+}
+
+.light-gallery img{
+	width: 24%;
 }
 
 /* Team
